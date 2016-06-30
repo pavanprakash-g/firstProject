@@ -1,0 +1,86 @@
+   .browserVersion{
+        background: rgba(0, 0, 0, 0.4);
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display:none;
+    }
+    .alert {
+        background-image: url("../../images/browserVersion.gif");
+        background-repeat:no-repeat;
+        background-position:0px 0px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: #a94442;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        position:relative;
+        height:271px;
+        width:524px;
+        top:32%;
+        margin:auto;
+        z-index:1000;
+
+    }
+    .notSupportedTxt{
+        padding: 30px 50px;
+        font-size: 22px;
+        text-align:center;
+    }
+    .notSupportedIcons{
+        margin:8px;
+        position:relative;
+    }
+    .notSupportedIcons .img{
+        width:90px;
+        height:90px;
+        margin:auto;
+        display:block;
+        background-image: url("../../images/browserVersion.gif");
+        background-repeat:no-repeat;
+    }
+    .firefox{
+        background-position:1px -286px;
+    }
+    .chrome{
+        background-position: -110px -286px;
+    }
+    .ie{
+        background-position: -338px -286px;
+    }
+    .safari{
+        background-position: -226px -286px;
+    }
+    .notSupportedIcons span{
+        display:block;
+        color:black;
+        font-size: 13px;
+        text-align:center;
+    }
+    .iconContainer{
+       
+        margin:auto;
+        padding-top: 100px;
+        width: 85%
+    }
+    .buttonContainer{
+       
+        margin: auto;
+        padding-top: 15px;
+        width: 10%;
+    }
+   
+    .broButton{
+        float:right;
+        text-decoration: underline;
+        color:blue;
+        cursor: pointer;
+        display:none;
+    }
+    .iconContainer div{
+       
+        display:inline-block;       
+    }
+  
