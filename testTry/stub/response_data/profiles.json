@@ -1,0 +1,25 @@
+ {
+
+ 	"profileList": [{
+ 		"profileId": 1,
+ 		"profileName": "Default",
+ 		"description": "Default profile for restaurant",
+ 		"syncTS": 1461039531,
+ 		"loactions": [{
+ 			"id": 1,
+ 			"name": "Velachery",
+ 			"isActive": true
+ 		}]
+ 	}],
+
+ 	"count": 10,
+
+ 	"total_records": 10,
+
+ 	"current_page": 1,
+
+ 	"per_page": 50,
+
+ 	"total_pages": 1
+
+ }

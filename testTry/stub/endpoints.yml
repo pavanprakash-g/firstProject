@@ -1,0 +1,28 @@
+- request:
+    method: GET
+    url : ^/Alert/api/v1/profileList$
+  response:
+    headers:
+      content-type: application/json
+    file: response_data/profiles.json
+    status: 200
+    latency: 450
+
+- request:
+    method: POST
+    url: ^/Alert/api/v1/login$
+  response:
+    headers:
+      content-type: application/json
+    file: post_data/login.json
+    status: 200
+    latency: 1000
+- request:
+    method: POST
+    url: ^/Alert/api/v1/loginfail$
+  response:
+    headers:
+      content-type: application/json
+    file: post_data/loginfail.json
+    status: 200
+    latency: 1000
